@@ -17,6 +17,7 @@ body {
 .navtext {
     position: absolute;
     left: 5%;
+    top: -17px;
     font-family: Helvetica, sans-serif;
     font-size: 14px;
     color: white;
