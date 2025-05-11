@@ -22,3 +22,14 @@ body {
     font-size: 14px;
     color: white;
 }
+.pimage {
+    height: 25%;
+    width: 25%;
+}
+.pmetadata {
+    position: absolute;
+    left: 5%;
+    font-family: Helvetica, sans-serif;
+    font-size: 12px;
+    color: white;
+}
