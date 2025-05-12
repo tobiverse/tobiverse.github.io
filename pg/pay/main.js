@@ -35,6 +35,7 @@ async function fetchTitles() {
                     console.log("[PROC. 3]: COMP.")
                     console.log("[PROC. 4]: BUSY")
                     const pimage = document.querySelectorAll('.pimage');
+                    console.log(`[PROC. 4]: DEBUG: IMG = https://raw.githubusercontent.com/tobiverse/servers/main/${serverf}/images/${servcontent[it].image`)
                     pimage.forEach(element => {
                         element.src = `https://raw.githubusercontent.com/tobiverse/servers/main/${serverf}/images/${servcontent[it].image}`;
                     });
